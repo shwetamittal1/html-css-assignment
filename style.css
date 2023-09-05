@@ -1,156 +1,116 @@
-
 body{
-   
-    background-color:azure;
-    font-family: 'Goldman', cursive;
-   
-    font-weight: bold;
-    
-}
-.nav-menu-icon1{
-    display:none;
-}
-.container{
-justify-content:left;
+    background-color: rgb(250, 249, 249);
+    background-image: url(./images/flower-cut.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: 400px;
 
 }
 nav{
-display: flex;
-flex-direction: row;
-height: 20vh;
-}
-.nav-logo{
-    
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+
 }
-.nav-link{
-    text-decoration: none;
-    color:black;
-    font-size: 15px;
+nav .nav-logo{
+    display: flex;
+    flex: 1.5;
+    margin-left: 40px;
+
 }
-.man-image{
-    align-items:last baseline;
-}
+
 nav .nav-items{
-    flex:2;
     display: flex;
-    justify-content:space-around;
-    align-items:center;
-    list-style: none;
-}
-nav .nav-menu-icon{
-    flex:1;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-
-}
-.brand-img{
-    flex:1;
-    align-items: center;
-    padding: 40px;
-
-}
-
-.nav-button {
-    background-color:beige;
-    width:120px;
-    padding:6px,40px;
-    border-radius: 20px;
-    cursor: pointer;
-    display :inline;
-}
-.container{
-    display:flex;
-    flex-direction: row;
-    flex:1;
+    flex: 1.5;
     justify-content: space-around;
-    margin-top: 40px;
-    height: 60vh;
+    align-items: center;
+    margin: auto;
+    max-width: 50%;
+    list-style-type: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
 }
-.col-1{
+nav .nav-icons{
     display: flex;
-    flex:0.5;
-    justify-content:left;
-    background-image: url(./images/E2Ck-squares.png);
-    background-position:right;
-   
-}
-.col-2{
-    flex-direction: row;
-    justify-content:center;
-    align-items: flex-start;
-}
-.globe-img{
-    padding-left: 100px;
-   position:relative; 
-}
-.star-img{
- position: absolute;
-    right:140px;
-
+    flex: 0.5;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 40%;
+    height: 20px;
+    width: 20px;
+ 
 }
 h1{
-    text-align: center;
-    font-size:50px;
+    font-size: 80px;
+    font-weight:600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.col-2 p{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  
+.discover-btn{
+height: 50px;
+width:180px;
+border-radius: 20px 20px 20px 20px;
+font-size: 25px;
+background-color: rgb(70, 160, 108);
+margin-left: 30px;
+color: aliceblue;
+margin-top: 20px;
+margin-bottom: 35px;
+
+}
+.row{
+display: flex;
+flex-direction: row;
 }
 
 h2{
-    text-align: center;
-    font-size: 14px;
+    font-size: 15px;
+  
+}
+.col-1{
+display: flex;
+flex-direction: row;
+}
+.feed-img{
+    height: 70px;
+    width: 80px;
+    margin-left: 30px;
 }
 
-.nav-button1{
-    background-color:rgb(240, 238, 236);
-    width:120px;
-    padding:6px,40px;
-    border-radius: 20px;
-    cursor: pointer;
-   color:black;
-}
-.nav-button2{
-    background-color:black;
-    width:120px;
-    padding:6px,40px;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
-   
-}
-.btn2{
-    display:flex;
- 
-    justify-content: center;
-   
 
+
+ p{
+    font-size: 11px;
+    margin-right: 10px;
+    flex-grow: 1;
 }
-.phone-icon{
+.info-items{
+    margin-top: 0;
+   list-style-type: none; 
+   justify-items: right;
+   margin-left:0px;
+   justify-content: left;
+}
+
+.col-2{
     display: flex;
-    justify-content:space-evenly;
-    height:10vh;
-    
-}
-@media screen  and (max-width:830px) {
-   
-    nav .nav-items{
-        display: none;
+    flex-direction: row;
     }
-    nav .nav-menu-icon{
-        display: none;
+    .light-img{
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 70px;
+        width: 80px;
     }
-    nav .nav-menu-icon1{
-        display: block;
-        margin: auto;
-    }
-
-    
-    }
-
-
+    .col-3{
+        display: flex;
+        flex-direction: row;
+        }
+      .care-img{
+        height: 60px;
+        width: 50px;
+        margin-left: 30px;
+      }
