@@ -1,156 +1,43 @@
-
 body{
-   
-    background-color:azure;
-    font-family: 'Goldman', cursive;
-   
+    background-color: aqua;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 65vh;
+    width:100%;
+    background-color: rgb(242, 236, 243);
+}
+.comp-name{
     font-weight: bold;
-    
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   padding-left: 170px;
 }
-.nav-menu-icon1{
-    display:none;
-}
-.container{
-justify-content:left;
-
-}
-nav{
-display: flex;
-flex-direction: row;
-height: 20vh;
-}
-.nav-logo{
-    
+.menu-items{
     display: flex;
-    justify-content: center;
-}
-.nav-link{
-    text-decoration: none;
-    color:black;
-    font-size: 15px;
-}
-.man-image{
-    align-items:last baseline;
-}
-nav .nav-items{
-    flex:2;
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    list-style: none;
-}
-nav .nav-menu-icon{
-    flex:1;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-
-}
-.brand-img{
-    flex:1;
-    align-items: center;
-    padding: 40px;
-
-}
-
-.nav-button {
-    background-color:beige;
-    width:120px;
-    padding:6px,40px;
-    border-radius: 20px;
-    cursor: pointer;
-    display :inline;
-}
-.container{
-    display:flex;
     flex-direction: row;
-    flex:1;
-    justify-content: space-around;
-    margin-top: 40px;
-    height: 60vh;
-}
-.col-1{
-    display: flex;
-    flex:0.5;
-    justify-content:left;
-    background-image: url(./images/E2Ck-squares.png);
-    background-position:right;
-   
-}
-.col-2{
-    flex-direction: row;
-    justify-content:center;
-    align-items: flex-start;
-}
-.globe-img{
-    padding-left: 100px;
-   position:relative; 
-}
-.star-img{
- position: absolute;
-    right:140px;
-
-}
-h1{
-    text-align: center;
-    font-size:50px;
-}
-.col-2 p{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    list-style-type: none;
+    
+    justify-content: space-evenly;
+    margin-left: 10px;
   
 }
-
-h2{
-    text-align: center;
-    font-size: 14px;
+.nav-items{
+    list-style-type: none;
+     display: inline;
+     justify-items: left;
+  
 }
-
-.nav-button1{
-    background-color:rgb(240, 238, 236);
-    width:120px;
-    padding:6px,40px;
-    border-radius: 20px;
-    cursor: pointer;
-   color:black;
+.nav-item{
+justify-items: left;
+padding-left:0px;
 }
-.nav-button2{
-    background-color:black;
-    width:120px;
-    padding:6px,40px;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
-   
+.hbar{
+    width: 100%;
+    height: 1px;
+    background: #4f4e5a;
 }
-.btn2{
-    display:flex;
- 
-    justify-content: center;
-   
-
+ h4{
+    width: 25%;
+    margin: auto;
 }
-.phone-icon{
-    display: flex;
-    justify-content:space-evenly;
-    height:10vh;
-    
-}
-@media screen  and (max-width:830px) {
-   
-    nav .nav-items{
-        display: none;
-    }
-    nav .nav-menu-icon{
-        display: none;
-    }
-    nav .nav-menu-icon1{
-        display: block;
-        margin: auto;
-    }
-
-    
-    }
-
-
