@@ -1,71 +1,43 @@
 body{
-    background-color: rgb(237, 243, 241);
+    background-color: aqua;
 }
-.container{
-    margin-left: 30px;
-    margin-top: 30px;
-}
-.btn1-challenge{
- 
-    background-color: rgb(41, 78, 245);
-    color:beige;
-    width: 130px;
-    height: 45px;
-    font-size: 20px;
-}
-
-.container .circle {
+footer{
     position: absolute;
-   
-     width: 40px;
-    height: 40px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    transform:translate(50%,-50%);
-    border-radius: 25px;
-    background: #01080e;
-    text-align: center;
-    line-height: 40px;
+    bottom: 0;
+    height: 65vh;
+    width:100%;
+    background-color: rgb(242, 236, 243);
+}
+.comp-name{
+    font-weight: bold;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   padding-left: 170px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    justify-content: space-evenly;
+    margin-left: 10px;
   
-   
-    
 }
-.btn1-challenge:hover{
-    cursor: hand; 
-    cursor: pointer;
-    }
-.btn2-challenge{
-    margin-left:130px;
-    width: 100px;
-    height: 40px;
-    border-radius: 15px 15px 15px 15px;
-    background-color:black ;
-    color: beige;
-    border-color: #e9dd37;
-    
-    box-shadow:  yellow 0px 3px 8px;
-
+.nav-items{
+    list-style-type: none;
+     display: inline;
+     justify-items: left;
+  
 }
-.btn2-challenge:hover{
-    cursor: hand; 
-    cursor: pointer;
-    }
-
-.btn3-challenge{
-    margin-left:130px;
-    width: 160px;
-    height: 40px;
-    border-radius: 25px 25px 25px 25px;
-    background-color:rgb(10, 87, 87) ;
-    color: beige;
-    border: none;
-    font-size: 16px;
-    border-style:unset;
-    box-shadow:  rgb(37, 112, 119) 0px 5px 9px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-   
+.nav-item{
+justify-items: left;
+padding-left:0px;
 }
-.btn3-challenge:hover{
-    cursor: hand; 
-    cursor: pointer;
-    }
+.hbar{
+    width: 100%;
+    height: 1px;
+    background: #4f4e5a;
+}
+ h4{
+    width: 25%;
+    margin: auto;
+}
