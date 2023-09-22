@@ -3,57 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form3</title>
+    <title>Table</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <div class="tag">
+ <div class="contanier">
+    <div class="col-1">       
     <h1>iNeuron</h1>
-    </div>
-<div class="input-box">
-    <h3> Sign in to your account</h3>
-<div class="input-form">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+    <h4>Contact us</h4>
+    </div> 
+<div class="col-2">
     <form>
-    <div class="input1">
-        <label for="email" >E-mail</label><br>
-        <input id="email" type="text"/><br>
-        <div class="fpassword">
-            <label for="password" >
-               Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#" class="pass-link"  >Forget your password</a> </label></div><br>
-            <input id="password" type="text"/>
-       </div>
-    </div> <br>
-    <div class="myinput">
-       <input type="checkbox" >
-        <label for="sign" >stay sign in for a week</label>
-    </div><br>
-    <button class="continue-btn"><a href="#" class="btn-link" >Continue</a></button><br>
-    <p>Use single sign-on (Google) instead</p>
+<label for="name" >Name :</label>
+<input id="name" type="text" class="iname"/><br><br>
+<label for="email" type="text">Email :</label>
+<input id="email" type="text" class="email"/><br><br>
+<label for="mnumber" type="text">Mobile No.:</label>
+<input id="mnumber" type="text" class="iname"/><br><br>
+<label for="service" type="text">Services you want:</label>
+<select id="services" name="services" >
+    <option value="services" selected>--services--</option>
+    <option value="pedicure">pedicure</option>
+    <option value="waxing">waxing"</option>
+    <option value="hair-spa">hair-spa</option>
+    <option value="facial">facial</option>
+    <option value="threading">threading</option>
+</select>
 
-
+<br><br>
+<label for="message" type="text">Message </label>
+<input id="message" type="text"/><br><br>
+<button class="submit" ><a href="#" class="btn-link">Submit</a></button>
     </form>
+ </div>   
 </div>
-</div>
-<div class="sign-in">
-   Don't have an account ? <a href="#"  class="sign-link"> Sign-In</a>
-</div>
-<div class="footer1">
-    <nav>
-        <ul class="nav-items">
-            <li class="nav-item"><a href="#" class="nav-link" > @iNeuron</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" > Contact</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" > Privacy&terms</a></li>
-
-        </ul>
-
-
-
-
-    </nav>
-
-</div>
-</div>
+    
 </body>
 </html>
