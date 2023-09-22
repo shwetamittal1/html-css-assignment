@@ -1,34 +1,117 @@
 body{
-    background-color:azure;
+    background-color: aliceblue;
 }
-
-.nav-items{
+ 
+ .nav-items{
     display: flex;
     flex-direction: row;
-    height: 45px;
-    border-radius: 7px 7px;
+    margin-left: 180px;
+    margin-top:0%;
     list-style-type: none;
-    background-color: rgb(9, 19, 29);
-    color:aliceblue;
-    width: 380px;
-    margin: 25px auto;
-    margin-top: 100px;
    
-   
-
-    
-}
-.nav-item{
-
-    margin-top: 10px;
-    margin-left: 27px;
-    
-}
-.nav-link{
+ }
+ .nav-item{
+    background-color: darkgray;
+    color: whitesmoke;
+    margin-left: 1px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+ }
+ .nav-link{
 color: aliceblue;
 text-decoration: none;
+ }
+ .nav-item1{
+    background-color: rgb(241, 185, 185);
+    color: whitesmoke;
+    margin-left: 1px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+ }
+ 
+  
+ .animatedNav > ul{
+    margin-left: 1px;
+     width:180px;
+     padding-left: 0px;
+     margin-right: 1px;
+ }
+ 
+ .animatedNav > ul > li{ 
+	background-color:darkgray;
+   
+    color: whitesmoke;
+    margin-left: 1px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+	cursor: pointer;
+	list-style-type: none;
+	
+	position:relative;
 }
-.nav-link3{
-    color: rgb(52, 180, 13);
-    text-decoration: none;
+.animatedNav > ul > li > a{
+	font-family: 'Raleway', sans-serif;
+	color:inherit;
+	text-decoration:none;
+	font-size:15px;
+	color:#fff;
 }
+.animatedNav li ul{
+	position:absolute;
+	list-style:none;
+	text-align:center;
+	width:190px;
+	left:40%;
+	margin-left:-90px;
+	top:20px;
+	
+	/* This is important for the show/hide CSS animation */
+	max-height:0px;
+	overflow:hidden;
+	
+	-webkit-transition:max-height 0.4s linear;
+	-moz-transition:max-height 0.4s linear;
+	transition:max-height 0.4s linear;
+}
+.animatedNav li:hover ul{
+	max-height:300px; /* Increase when adding more dropdown items */
+}
+.animatedNav li ul li{
+	background-color:rgb(241, 185, 185);
+}
+.animatedNav li ul li a{
+	padding:12px;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+.animatedNav li ul li:hover{
+	background-color:rgb(128, 126, 126);
+}
+.animatedNav li ul li:first-child{
+	border-radius:3px 3px 0 0;
+	margin-top:25px;
+	position:relative;
+}
+.animatedNav li ul li:first-child:before{ /* the pointer tip */
+	content:'';
+	position:absolute;
+	width:1px;
+	height:1px;
+	border:5px solid transparent;
+	border-bottom-color:darkgrey;
+	left:50%;
+	top:-10px;
+	margin-left:-5px;
+}
+.animatedNav li ul li:last-child{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+
